@@ -1,12 +1,4 @@
-<<<<<<< HEAD
 #include <Arduino.h>
-=======
-#include <avr/io.h>
-#include <util/delay.h>
-#include <Wire.h>
-#include <Arduino.h>
-#include <stdio.h>
->>>>>>> 250e03a0cc6186e452e5ebca95322930ad154539
 
 #define F_CPU 16000000UL    // CPU frequency
 #define SCL_CLOCK 100000L    // I2C clock frequency
@@ -16,10 +8,7 @@
 #define HOUR_REGISTER 0x02  // RTC register address for hours
 #define MAX_STRING_LENGTH 100 // Maximum length for received strings
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 250e03a0cc6186e452e5ebca95322930ad154539
 // Function prototypes
 void I2C_Init(void);
 uint8_t I2C_Start(void);
